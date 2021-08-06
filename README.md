@@ -11,7 +11,7 @@ run the following commands in the terminal.
 
 ### 1. Clone source code onto local machine
 
-`git clone https://github.com/nickzswammer/Audio-Party-Entertainment-App.git`
+```git clone https://github.com/nickzswammer/Audio-Party-Entertainment-App.git```
 
 ### 2. Navigate to the root directory
 
