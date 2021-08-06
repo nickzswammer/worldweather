@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(233, 233, 233);
+  height: 100%;
+}
+
+.searchbox {
+  width: 20%;
+}
+
+@media (max-width: 900px) {
+  .searchbox {
+    width: 40%;
+  }
+  .current-weather {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+  }
+  .forecast-item {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .saerchbox {
+    width: 60%;
+  }
+  .current-weather {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+  }
+  .forecast-item {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.current-weather {
+  background-image: url("../public/gradientweather.jpg");
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+.lighterwhite {
+  color: rgb(250, 250, 250);
+}
+
+.forecast-item {
+  margin-left: 2%;
+  margin-right: 2%;
+}
