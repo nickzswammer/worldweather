@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-4">
       <div className="container-fluid">
-        <a className="navbar-brand text-4xl" href="/">
+        <a className="navbar-brand text-4xl">
           <Image
             src="/weather.png"
             alt=""
