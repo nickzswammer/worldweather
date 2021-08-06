@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) weather application that displays the c
 
 ## Web Application
 
-This application is deployed on Heroku and can be found here: https://theworldweather.herokuapp.com/
+This application is deployed on Heroku and can be found here: https://github.com/nickzswammer/worldweather.git
 
 
 ## Run Locally
